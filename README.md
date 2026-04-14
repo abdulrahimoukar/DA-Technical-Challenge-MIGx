@@ -16,9 +16,13 @@ This repository contains the solution for the MIGx Technical Challenge. All anal
 ## 📝 Bonus Questions
 
 **1. Stakeholder Communication:** For executives, I would focus only on high-level charts and final KPIs to support quick strategic decisions. For operations managers, I would provide both the results and the "how-to".
+
 **2. Data Quality at Scale:** I would implement automated checks to ensure ID uniqueness, flag missing critical values (nulls), and verify that dates are logically consistent (e.g., start date before completion). I would also add alerts for unusual changes in data volume during daily updates
+
 **3. Self-Service Analytics:** I would build a user-friendly dashboard in a BI tool with clean, non-technical column names and easy drop-down filters so they can get their own answers without needing to write SQL or code.
+
 **4. Compliance Considerations:** I would need to further review the specific regulatory implications, but I would focus on having everything perfectly documented, keeping a history of every change made to the code, and making sure there is a clear "trail" to prove the results are accurate and haven't been messed with.
+
 **5. Advanced Analytics:** I would need to conduct a more in-depth review of the "outcomes" column to fully understand its specific information but probably I could implement a Random Forest model to predict success or failure.
 
 ---
